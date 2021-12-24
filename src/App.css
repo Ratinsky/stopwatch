@@ -1,38 +1,38 @@
+@font-face {
+  font-family: 'digital';
+  src: url('font/DS-DIGI.TTF');
+}
+@font-face {
+  font-family: 'press';
+  src: url('font/Press.ttf');
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App span{
+  font-family: digital;
+  margin: 5px;
+  font-size: 45px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App button {
+  font-size: 15px;
+  padding: 10px 15px;
+  margin: 10px;
+  font-family: press;
+}
+.App button:active {
+  filter: brightness(0.7);
+}
+.App .start{
+  background-color:rgb(21, 182, 21);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .stop{
+  background-color:rgb(235, 42, 42);
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App h1 {
+  font-family: press;
+  margin: 50px;
 }
