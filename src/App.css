@@ -13,7 +13,7 @@
 .App span{
   font-family: digital;
   margin: 5px;
-  font-size: 45px;
+  font-size: 65px;
 }
 
 .App button {
@@ -31,6 +31,12 @@
 
 .App .stop{
   background-color:rgb(235, 42, 42);
+}
+.App .reset {
+  background-color: paleturquoise;
+}
+.App .wait {
+  background-color: bisque;
 }
 .App h1 {
   font-family: press;
